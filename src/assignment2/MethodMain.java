@@ -35,8 +35,10 @@ public class MethodMain {
 		
 		// calling the method myClassSize to represent the classSize with return type
 		int classSize = obj1.myClassSize();
-		
-	
+		//calling static method factorsOfNumber directly with class name.
+		MethodUtility.factorsOfNumber(10);
+		//calling static method methodOfTwoIntegers directly with class name.
+		MethodUtility.methodOfTwoIntegers(10, 15);
 	}
 
 }
